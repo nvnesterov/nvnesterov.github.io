@@ -183,7 +183,7 @@ analytics:
 ## => Build
 ##############################
 markdown    : kramdown
-highlighter : rouge
+highlighter : tomorrow
 permalink   : date
 
 exclude:
