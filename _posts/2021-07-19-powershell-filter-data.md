@@ -30,7 +30,7 @@ Get-MyFunc | Where {($_.ExtensionData.Name -like "*tadam*")}
 - -in - принадележит множеству
 
 
-Примеры (здесь используется упрощенный вариант where):
+Примеры:
 
 ```powershell
 Get-ChildItem | Where {($_.Name -in 'doc1.txt', 'doc2.txt')}
