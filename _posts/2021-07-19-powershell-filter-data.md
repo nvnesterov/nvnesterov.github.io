@@ -33,6 +33,7 @@ Get-MyFunc | Where {($_.ExtensionData.Name -like "*tadam*")}
 Примеры (здесь используется упрощенный вариант where):
 
 ```powershell
-Get-Childitem | Where Name -in "документы", "рисунки"
+Get-ChildItem | Where {($_.Name -in 'doc1.txt', 'doc2.txt')}
+
 Get-Childitem | Where Name -match "doc.+"
 ```
